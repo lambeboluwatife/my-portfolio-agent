@@ -38,4 +38,13 @@ export const mastra = new Mastra({
    vectors: {
     mongodb: mongoVector,
   },
+
+  server: {
+    // Disable CORS for development
+    cors: ENV === "development" ? {
+      origin: "*",
+      allowMethods: ["*"],
+      allowHeaders: ["*"],
+    } : undefined,
+  },
 });
