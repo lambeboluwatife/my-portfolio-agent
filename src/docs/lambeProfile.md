@@ -42,7 +42,7 @@ I believe in writing clean, maintainable code that not only works but tells a st
 
 ---
 
-## 🏢 Work History
+## 🏢 Work History/Work Experience
 
 ### 🧠 Ovabor Labs — *AI Agents Developer*  
 *Remote | Jan 2025 – Present*  

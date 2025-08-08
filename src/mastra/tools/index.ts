@@ -59,13 +59,15 @@ export const googleSearchTool = createTool({
 
 export const boluwatifeRagTool = createTool({
   id: "boluwatifeRagTool",
-  description: `Access detailed and contextual knowledge about Lambe Boluwatife — including his bio, technical background, work experience, projects, interests, achievements, and career goals.`,
+  description: `Retrieve accurate, detailed information about Lambe Boluwatife from a curated private knowledge base.
+This tool MUST be used for ANY query related to Lambe Boluwatife — including his biography, career, skills, work experience, projects, education, interests, and personal story.
+Never decline or search the web first if the question is about Lambe Boluwatife — always call this tool.`,
 
   inputSchema: z.object({
     query: z
       .string()
       .describe(
-        "A natural language query to retrieve specific information about Lambe Boluwatife's background, skills, projects, personality, or professional journey."
+        "The exact question or topic to search for about Lambe Boluwatife in the knowledge base."
       ),
     category: z
       .enum([
